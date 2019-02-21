@@ -1,0 +1,24 @@
+{
+    "events": [
+        {
+            "id": "03040675-A963-40F3-AF79-B8AE260A03F7",
+            "title": "Trip to Greece",
+            "date": "2019-09-05T13:00:00.000Z"
+        },
+        {
+            "id": "A2668F23-8335-44FE-8133-245C61CCF1D7",
+            "title": "Trip to St Tropez",
+            "date": "2020-06-15T11:30:00.000Z"
+        },
+        {
+            "id": "8E61D835-E95D-45BC-BCC1-D5B9373F11AC",
+            "title": "Trip to Gerardmer",
+            "date": "2020-02-25T18:45:00.000Z"
+        },
+        {
+            "id": "E4D029A9-61F9-46D9-9CB9-6F923968D2EE",
+            "title": "Trip to Dublin",
+            "date": "2020-10-18T10:20:00.000Z"
+        }
+    ]
+}
