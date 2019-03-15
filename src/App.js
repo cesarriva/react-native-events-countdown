@@ -1,11 +1,18 @@
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
 import EventList from './components/EventList';
+import EventForm from './components/EventForm';
+import { createStackNavigator, createAppContainer } from 'react-navigation';
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <EventList />
-    );
-  }
-}
+const MainNavigator = createStackNavigator({
+  EventList: {
+    screen: EventList,
+    navigationOptions: () => ({ title: 'Your Events' })
+  },
+  EventForm: {
+    screen: EventForm,
+    navigationOptions: () => ({ title: 'Add an event' })
+  },
+});
+
+const App = createAppContainer(MainNavigator);
+export default App;
